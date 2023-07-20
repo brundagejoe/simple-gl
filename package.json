@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "wasm-build": "cd rust-wasm-template && wasm-pack build --target web",
     "preview": "vite preview"
   },
   "dependencies": {
