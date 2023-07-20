@@ -7,8 +7,8 @@ Create a simple react project using vite, typescript, tailwindcss, rust, wasm, a
 After downloading the template and having cargo installed, go into the project file and run:
 
 ```bash
-npm i
 npm run wasm-build
+npm i
 npm run dev
 ```
 
